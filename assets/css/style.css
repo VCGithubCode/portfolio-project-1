@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #000;
+    color: #5c5c5c;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -39,6 +39,15 @@ header a {
 
 #company-name {
     font-size: 1.5rem;
+    display: none;
+}
+
+#company-abbr-name {
+    font-size: 1.5rem;
+    display: none;
+}
+
+.menu-text {
     display: none;
 }
 
@@ -155,7 +164,6 @@ main {
     margin: 0;
     height: 5.625rem;
     width: 5.625rem;
-    overflow-clip-margin: content-box;
     overflow: hidden;
 }
 
@@ -176,11 +184,25 @@ main {
 }
 
 /* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 320px) {
+    #company-abbr-name {
+        display: contents;
+        visibility: visible;
+    }
+    .menu-text {
+        display: none;
+    }
+
+
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
 
-
+    #company-abbr-name {
+        display: none;
+    }
+    
     #company-name {
         display: contents;
         visibility: visible;
@@ -204,4 +226,5 @@ main {
             border-bottom: 1px solid #000;
         }
     }
+}
 }
