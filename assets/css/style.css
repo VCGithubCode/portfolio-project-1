@@ -37,20 +37,35 @@ header a {
     color: inherit;
 }
 
+#company-name {
+    font-size: 1.5rem;
+    display: none;
+}
+
 #menu-list {
     font-size: 110%;
     list-style-type: none;
 }
 
-#menu > li {
+#menu-list>li {
     margin-bottom: 1em;
+}
+
+.active,
+a:hover -c3ms-logo {
+    color: #000;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
     background-color: black;
-    color: white;
-    border: 0.125rem solid #00f;
+    color:white;
 }
+
+#menu-list a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -81,7 +96,7 @@ nav {
     padding: 2px;
     font-size: 1.5rem;
     align-items: center;
-    
+
 }
 
 
@@ -101,6 +116,7 @@ main {
     background-color: silver;
     /* Makes main element take up any surplus space to push footer down to bottom */
     flex: 1 0 auto;
+    margin-top: 90px;
 }
 
 /* Footer */
@@ -125,21 +141,47 @@ main {
     align-items: center;
 }
 
-#c3ms-logo-image{
+#c3ms-logo-image {
     display: flex;
     padding: 0;
     margin: 0;
-    height: 7rem;
-    width: 7rem;
+    height: 5.625rem;
+    width: 5.625rem;
     overflow-clip-margin: content-box;
     overflow: hidden;
 }
 
-#menu-text {
+h1 #menu-text {
     display: flex;
     padding: 0 0.5px 2.5px 0;
+
 }
 
 #burger-icon {
     padding: 5px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+
+    #company-name {
+        display: contents;
+        visibility: visible;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 90px;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu-list a:hover {
+            border-bottom: 1px solid #000;
+        }
+    }
 }
