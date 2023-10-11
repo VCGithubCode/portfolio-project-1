@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #5c5c5c;
+    color: #50505a;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -25,7 +25,7 @@ h1, h2, h3{
     letter-spacing: normal;
     line-height: 35px;
     text-transform: uppercase;
-    color: #5C5C5C;
+    color: #50505a;
 }
 
 
@@ -121,7 +121,6 @@ nav {
 
 /* Main content */
 main {
-    background-color: silver;
     /* Makes main element take up any surplus space to push footer down to bottom */
     flex: 1 0 auto;
     margin-top: 90px;
@@ -145,11 +144,39 @@ main {
     padding-top: 40px;
     padding-left: 40px;
     border-radius: 3px;
-    box-shadow: 0.5px 0.5px 2px #ffffff;
+    box-shadow: 0.5px 0.5px 0.5px 2px #054d98;
 }
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff
+}
+
+/* Cloud migration section */
+
+#cloud-migration {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#cloud-migration h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-time-money>div,
+#benefits-staff-clients>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -190,13 +217,13 @@ main {
     font-weight: 300;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #5C5C5C;
+    color: #50505a;
 
 }
 
 #burger-icon {
     padding: 5px;
-    color: #5C5C5C;
+    color: #50505a;
 }
 
 /* Media query: tablets and larger (768px and up) */
