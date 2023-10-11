@@ -231,6 +231,16 @@ hr {
 
 }
 
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 #burger-icon {
     padding: 5px;
     color: #50505a;
