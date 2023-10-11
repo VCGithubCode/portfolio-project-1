@@ -194,7 +194,7 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     /* Makes the square image into a circle */
-    border-radius: 50%;
+    border-radius: 3%;
     max-width: 300px;
     max-height: 300px;
 }
@@ -273,6 +273,22 @@ hr {
         right: 50px;
     }
 
+    /* Cloud-Migration Section */
+    #pros-time-money, #pros-staff-clients {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #pros-time-money > div, #pros-staff-clients > div {
+        width: 75%;
+    }
+    
+    #pros-staff-clients > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu-list a:hover {
@@ -280,4 +296,32 @@ hr {
         }
     }
 }
+}
+
+@media screen and (min-width: 1200px) {    
+    /* Cloud-Migration Section */
+    #pros {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #pros > div {
+        flex: 1;
+    }
+
+    #cloud-migration-image {
+        order: 0
+    }
+
+    #pros-staff-clients {
+        order: 1;
+    }
+
+    #pros-staff-clients > div {
+        align-self: flex-start;
+    }
+
+    #pros-time-money > div {
+        align-self: flex-end;
+    }
 }
