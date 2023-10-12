@@ -132,7 +132,7 @@ nav {
 main {
     /* Makes main element take up any surplus space to push footer down to bottom */
     flex: 1 0 auto;
-    margin-top: 90px;
+    margin-top: 110px;
 }
 
 /* Hero section */
@@ -274,7 +274,7 @@ hr {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 90px;
+        margin-top: 100px;
     }
 
     /* Hero image */
