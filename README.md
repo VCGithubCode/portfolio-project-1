@@ -4,4 +4,4 @@ C3MS is a site that hopes to help educate people a tiny bit about cloud computin
 
 [View the live project here.](https://vcgithubcode.github.io/portfolio-project-1/)
 
-![Responsive Mockup](https://github.com/VCGithubCode/portfolio-project-1/blob/main/assets/images/)
+![Responsive Mockup](https://github.com/VCGithubCode/portfolio-project-1/blob/main/assets/images/responsive-test.webp)
