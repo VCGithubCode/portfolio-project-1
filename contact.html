@@ -86,32 +86,38 @@
     <!-- Hero Section -->
     <main>
         <section id="contact">
+            <div class="form-box">
             <form id="contact-form" method="post" action="https://formdump.codeinstitute.net/">
                 <h2><i class="fa-solid fa-cloud-arrow-up"></i> Get in touch with us</h2>
                 <div class="form-input">
-                    <label for="fname" class="required">First name:</label>
+                    <label for="fname" class="contact-info">First name:</label>
+                    <br>
                     <input type="text" id="fname" name="first_name" placeholder="Zeus" required>
                 </div>
                 <div class="form-input">
-                    <label for="lname" class="required">Last name:</label>
+                    <label for="lname" class="contact-info">Last name:</label>
+                    <br>
                     <input type="text" id="lname" name="last_name" placeholder="God of the Sky" required>
                 </div>
                 <div class="form-input">
-                    <label for="email" class="required">E-Mail:</label>
+                    <label for="email" class="contact-info">E-Mail:</label>
+                    <br>
                     <input type="email" id="email" name="email_address" placeholder="example@olympus.com" required>
                 </div>
                 <div class="form-input">
-                    <label for="phone">Phone number:</label>
+                    <label for="phone" class="contact-info">Phone number:</label>
+                    <br>
                     <input type="tel" id="phone" name="phone_number" placeholder="+123 4567890">
                     </div>
                 <div class="form-input">
-                    <label for="info">Send us a message:</label>
+                    <label for="info" class="contact-info">Send us a message:</label>
+                    <br>
                     <textarea id="info" name="additional_information" rows="5"
                         placeholder="Touch the cloud"></textarea>
                 </div>
                 <input type="submit" id="submit-button" class="cta-button" value="Send">
-            </form>
-        <hr>
+            </div>
+        </form>
         </section>
     </main>
 

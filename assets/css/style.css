@@ -150,7 +150,7 @@ main {
     bottom: 30px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 40px;
     border-radius: 3px;
     box-shadow: 0.5px 0.5px 0.5px 2px #054d98;
@@ -203,6 +203,70 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Services Hero */
+
+#services {
+    height: 600px;
+    width: 100%;
+    background: url("../images/find-solutions.webp") no-repeat center center / cover;
+    position: relative;
+}
+
+#services-text {
+    background-color: rgba(27, 30, 30, 0.7);
+    font-size: large;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 0.5px 2px #054d98;
+}
+
+#services-text > h2, #services-text > h3 {
+    color: #ffffff
+}
+
+
+/* Contact Form */
+#contact {
+    background-image: url(../images/touch-the-cloud.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+    padding: 0 5px;
 }
 
 /* Footer */
@@ -279,7 +343,7 @@ hr {
 
     /* Hero image */
     #cover-text {
-        width: 300px;
+        width: 200px;
         right: 50px;
     }
 
@@ -298,6 +362,13 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Services page */
+    #services-text {
+        width: 300px;
+        right: 50px;
+    }
+
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
