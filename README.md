@@ -27,7 +27,7 @@ C3MS is a site that hopes to help educate people a tiny bit about cloud computin
   - The pros section will allow the user to some of the benefits of cloud computing. 
   - This should encourage the user to investigate cloud computing. 
 
-![Pros](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/responsive-test.webp)
+![Pros](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/pros.webp)
 
 - __Hours of Operation section__
 
@@ -47,7 +47,7 @@ C3MS is a site that hopes to help educate people a tiny bit about cloud computin
   - The services section will provide the user with a general introduction to the services C3MS can provide. 
   - This section is valuable to the user as they will be able to easily identify if what C3MS offers is applicable to their needs. 
 
-![Services](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/responsive-test.webp)
+![Services](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/services.webp)
 
 - __The Contact Page__
 
