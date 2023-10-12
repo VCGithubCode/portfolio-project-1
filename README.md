@@ -13,14 +13,14 @@ C3MS is a site that hopes to help educate people a tiny bit about cloud computin
   - Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Services and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/image/c3ms_nav.webp)
+![Nav Bar](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/c3ms_nav.webp)
 
 - __The landing page image__
 
   - The landing page includes a photograph with text overlay to allow the user to see exactly what this page is about at a glance.
  
 
-![Landing Page](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/image/man-in-cloud-hero.webp)
+![Landing Page](https://raw.githubusercontent.com/VCGithubCode/portfolio-project-1/main/assets/images/man-in-cloud-hero.webp)
 
 - __Pros Section__
 
